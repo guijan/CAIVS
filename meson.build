@@ -1,5 +1,5 @@
 project('CAIVS', 'c',
-  version : '0.1',
+  version : '1.0.0',
   default_options : ['warning_level=3', 'c_std=c99'])
 
 if host_machine.system().endswith('bsd') or host_machine.system() == 'cygwin' or host_machine.system() == 'darwin'
